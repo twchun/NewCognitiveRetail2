@@ -18,7 +18,8 @@
     "loopback-datasource-juggler": "^2.39.0",
     "passport": "^0.3.2",
     "serve-favicon": "^2.0.1",
-    "request": "^2.51.0"
+    "request": "^2.51.0",
+    "ibm_db": "0.0.19"
   },
   "repository": {
     "type": "git",
