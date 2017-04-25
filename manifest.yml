@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: NewCognitiveRetail
+  host: NewCognitiveRetail
+  disk_quota: 1024M
+  services:
+  - NewCognitiveRetail-AdvancedMobileAccess
+  - NewCognitiveRetail-imfpush
+  - NewCognitiveRetail-cloudantNoSQLDB
